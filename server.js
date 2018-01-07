@@ -1,0 +1,8 @@
+var express = require('express');
+var app = express();
+
+app.use(express.static('public'));
+app.use(express.static('node_modules'));
+
+app.listen(7000);
+console.log('server is listening');

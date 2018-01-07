@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.result {
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px 0px #777;;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.city-name {
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.results {
+    padding: 0;
+}
+
+.comment-item {
+    list-style: none;
+}
+
+.fa-trash {
+    font-size: 30px;
+    color: #204d74;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.remove :hover {
+    color: rgb(134, 2, 2);
+}
